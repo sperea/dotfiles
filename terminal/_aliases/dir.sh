@@ -1,13 +1,13 @@
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="exa -l"
-alias la="exa -la"
-alias tt="exa --tree --level=2 --long"
+alias ll="ls -l"
+alias la="ls -la"
+alias tt="ls --tree --level=2 --long"
 
 # Jumps
 alias ~="cd ~"
 alias tmp="cd ~/Downloads/tmp"
-alias cdc='cd ~/Code'
+alias cdc='cd ~/Proyectos'
 alias dotfiles="cd ~/.dotfiles"
 alias cdw="cdc; cd work"
 alias cdy="cdw; cd codelytv"
